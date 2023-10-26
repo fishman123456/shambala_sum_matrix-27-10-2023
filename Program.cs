@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -59,6 +60,7 @@ namespace shambala_sum_matrix_27_10_2023
 
         static void Main(string[] args)
         {
+            Stopwatch sw = Stopwatch.StartNew(); // замер времени работы программы
             Random r = new Random();
             int m = 3, n = 3, min = 1, max = 9;
             int[][] m1 = GenerateMatrix(m, n, min, max, r);
@@ -71,6 +73,7 @@ namespace shambala_sum_matrix_27_10_2023
             // 
             int[][] m3 = SumMatrix(m1, m2);
             PrintMatrix(m3);
+            Console.WriteLine($"Время работы: {sw.ElapsedMilliseconds}");
             Console.ReadLine();
         }
     }
