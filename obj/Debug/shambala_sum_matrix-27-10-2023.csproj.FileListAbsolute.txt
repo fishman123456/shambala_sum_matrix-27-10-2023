@@ -1,0 +1,7 @@
+C:\Users\Fishman_1\Documents\GitHub\shambala_sum_matrix-27-10-2023\bin\Debug\shambala_sum_matrix-27-10-2023.exe.config
+C:\Users\Fishman_1\Documents\GitHub\shambala_sum_matrix-27-10-2023\bin\Debug\shambala_sum_matrix-27-10-2023.exe
+C:\Users\Fishman_1\Documents\GitHub\shambala_sum_matrix-27-10-2023\bin\Debug\shambala_sum_matrix-27-10-2023.pdb
+C:\Users\Fishman_1\Documents\GitHub\shambala_sum_matrix-27-10-2023\obj\Debug\shambala_sum_matrix-27-10-2023.csproj.AssemblyReference.cache
+C:\Users\Fishman_1\Documents\GitHub\shambala_sum_matrix-27-10-2023\obj\Debug\shambala_sum_matrix-27-10-2023.csproj.CoreCompileInputs.cache
+C:\Users\Fishman_1\Documents\GitHub\shambala_sum_matrix-27-10-2023\obj\Debug\shambala_sum_matrix-27-10-2023.exe
+C:\Users\Fishman_1\Documents\GitHub\shambala_sum_matrix-27-10-2023\obj\Debug\shambala_sum_matrix-27-10-2023.pdb

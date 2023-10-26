@@ -45,7 +45,16 @@ namespace shambala_sum_matrix_27_10_2023
         // выход: результат сложения двух матриц - новая матрица
         static int[][] SumMatrix(int[][] m1, int[][] m2)
         {
-            throw new NotImplementedException();
+            int[][] result = new int[m1.Length][];
+            for (int i = 0;i < m1.Length;i++)
+            {
+                result[i] = new int[m1[i].Length];
+                    for (int j = 0;j < m1[i].Length;j++)
+                {
+                    result[i][j] = m1[i][j] + m2[i][j];
+                }
+            }
+            return result;
         }
 
         static void Main(string[] args)
@@ -62,6 +71,7 @@ namespace shambala_sum_matrix_27_10_2023
             // 
             int[][] m3 = SumMatrix(m1, m2);
             PrintMatrix(m3);
+            Console.ReadLine();
         }
     }
 }
